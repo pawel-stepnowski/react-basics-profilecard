@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: #dfdfdf;
+    --button-outside-border: -.5em -.5em 1em hsl(0 0% 100% / .75), .5em .5em 1em hsl(0 0% 50% / .5);
+    --button-light-shadow: hsl(0 0% 100% / .75);
+    --button-dark-shadow: hsl(0 0% 50% / .5);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body {
+    background-color: var(--background);
+}
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--background);
+    border: 0.5rem solid var(--background);
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 2rem;
+    font-size: 1em;
+    font-weight: 500;
+    box-shadow: 
+        -.25rem -.25rem 0.5rem var(--button-light-shadow),
+        .25rem .25rem 0.5rem var(--button-dark-shadow);
+    transition: all 100ms linear;
+    cursor: pointer;
+}
+button:hover {
+    transform: scale(1.2);
+}
+button:active {
+    font-size: 0.8em;
+}
