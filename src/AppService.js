@@ -5,7 +5,7 @@ export class AppService
         const profile =
         {
             name: 'Anna Effective',
-            image: '/images/Ellipse 109.png',
+            image: '/react-basics-profilecard/images/Ellipse 109.png',
             verified: true,
             topic: 'Double your income with me!',
             counter: 4881,

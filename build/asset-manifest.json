@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-basics-profilecard/static/css/main.6878e01a.css",
+    "main.js": "/react-basics-profilecard/static/js/main.b8a041ec.js",
+    "index.html": "/react-basics-profilecard/index.html",
+    "main.6878e01a.css.map": "/react-basics-profilecard/static/css/main.6878e01a.css.map",
+    "main.b8a041ec.js.map": "/react-basics-profilecard/static/js/main.b8a041ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6878e01a.css",
+    "static/js/main.b8a041ec.js"
+  ]
+}
